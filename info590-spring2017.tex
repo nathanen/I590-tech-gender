@@ -10,15 +10,16 @@
 \setmainfont[Mapping=tex-text]{Myriad Pro} 
 \setmonofont[Mapping=tex-text]{Menlo}
 
-\usepackage[utf8]{inputenc}
-\usepackage[strict,backend=bibtex8,babel=other,%
-bibencoding=inputenc]{biblatex-chicago}
+% \usepackage[strict,backend=biber]{biblatex-chicago}
+% \renewcommand{\fullcite}{\fullcite}
+
+\usepackage[citestyle=verbose-ibid, natbib, backend=biber]{biblatex} 
+\renewcommand{\cite}{\autocite}
+\renewcommand\citep\autocite
+
 \bibliography{tech-gender}
-\renewcommand{\cite}{\fullcite}
 
-
-
-\renewcommand \thesection{\Roman{section}} 
+\renewcommand \thesection{\Roman{section}}
 \renewcommand \thesubsection{}
 \renewcommand \thesubsubsection{}
 
@@ -51,7 +52,7 @@ bibencoding=inputenc]{biblatex-chicago}
  
 \vspace{0.2in}
 
-In this seminar we will explore the literature on the history of gender and technology, with a particular focus on information technology.  From the ``computer girls'' of the early 20th century to the hyper-masculine culture of contemporary computing, ideas about gender have reflected and transformed our understanding of sexuality and gender.  Our goal in this seminar is to survey the best of the emerging literature on gender and computing, with an eye towards the practical application of gender theory into your future research projects.
+In this seminar we will explore the lfullciterature on the history of gender and technology, with a particular focus on information technology.  From the ``computer girls'' of the early 20th century to the hyper-masculine culture of contemporary computing, ideas about gender have reflected and transformed our understanding of sexuality and gender.  Our goal in this seminar is to survey the best of the emerging literature on gender and computing, with an eye towards the practical application of gender theory into your future research projects.
 
 
 \vspace{0.1in}
@@ -91,104 +92,89 @@ Introduction and in-class primary source exercise.
 
 \section{January 18}
 
-Scott, J W. “The Uses and Abuses of Gender.” Tijdschrift Voor Genderstudies 16, no. 1 (2013): 63–77. \\
+\fullcite{Scott:1986ik}
 
-Cowan, R S. “The ‘Industrial Revolution’ in the Home: Household Technology and Social Change in the 20th Century.” Technology and Culture 17, no. 1 (January 1, 1976): 1–23. \\
+\fullcite{Cowan:1976wda}
 
-Oldenziel, R. “Boys and Their Toys: the Fisher Body Craftsman's Guild, 1930-1968, and the Making of a Male Technical Domain.” Technology and Culture 38, no. 1 (1997): 60–96.
-
+\fullcite{Oldenziel:1997to}
 
 \section{January 25}
 
-Bray, Francesca. “Gender and Technology.” Annual Review of Anthropology 36 (January 1, 2007): 37–53. \\
+\fullcite{Bray:2007cb}
 
-Kleif, Tine, and Wendy Faulkner. “"I“M No Athlete [but] I Can Make This Thing Dance!" Men”s Pleasures in Technology.” Science, Technology \& Human Values 28, no. 2 (2003): 296–325.\\
+\fullcite{Kleif:2003wg}
 
-Fischer, Claude S. “Gender and the Residential Telephone, 1890-1940: Technologies of Sociability.” Sociological Forum 3, no. 2 (1988): 211–33.
+\fullcite{Fischer:1988wl}
 
 \section{February 1}
 
-Oldenziel, Ruth. Making Technology Masculine: Men, Women and Modern Machines in America, 1870-1945, Amsterdam: Amsterdam University Press, 1999.
-
+\fullcite{Oldenziel:1999vk}
 
 \section{February 8}
 
-Strom, Sharon Hartman. Beyond the Typewriter : Gender, Class, and the Origins of Modern American Office Work, 1900-1930, Urbana: University of Illinois Press, 1992.
-
+\fullcite{Strom:1992wx}
 
 \section{February 15}
 
-Hicks, Marie. Programmed Inequality, MIT Press, 2016.
-
+\fullcite{Hicks:2016uj}
 
 \section{February 22}
 
-Nakamura, Lisa. “Indigenous Circuits: Navajo Women and the Racialization of Early Electronic Manufacture.” American Quarterly 66, no. 4 (2014): 919–41.\\ 
+\fullcite{Nakamura:2014gp}
 
-Ensmenger, Nathan. “Making Programming Masculine.” In Gender Codes: Why Women Are Leaving Computing, Wiley, 2010.\\
+\fullcite{Ensmenger:2010tc}
 
-“Cyborg Manifesto: Science, Technology, and Socialist-Feminism in the Late Twentieth Century.” In Simians, Cyborgs, and Women: the Reinvention of Nature, Simians, Cyborgs and Women: The Reinvention of Nature:149–81, New York: Routledge, 1991.
-
-
+\fullcite{Haraway:1991uz}
 
 
 \section{March 1}
 
+\fullcite{Levy:1984ut}
 
+\fullcite{Eglash:2002wk}
 
-Ensmenger, Nathan. “‘Beards, Sandals, and Other Signs of Rugged Individualism’: Masculine Culture Within the Computing Professions.” Osiris 30, no. 1 (2015): 38–65.\\
-
-Eglash, Ron. “Race, Sex, and Nerds: From Black Geeks to Asian American Hipsters.” Social Text 2, no. 20 (2002): 49–64.\\
-
-Levy, S. Hackers: Heroes of the Computer Revolution. New York, NY: Bantam Doubleday Dell Publishing Group, 1984. (excerpts)\\
-
-Lagesen, V A. “A Cyberfeminist Utopia? Perceptions of Gender and Computer Science Among Malaysian Women Computer Science Students and Faculty.” Science, Technology \& Human Values 33, no. 1 (2008): 5–27.
-
-
+\fullcite{Lagesen:2008vy}
 
 
 \section{March 8}
 
+\fullcite{Hayles:2008wq}
 
-Hayles, N. Katherine. How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics, University of Chicago Press, 2008.
 
 \section{March 22}
 
-Pascoe, C J. Dude, You're a Fag, Univ of California Press, 2011. \\
+\fullcite{Pascoe:2011cj}
 
-Salter, Anastasia, and Bridget Blodgett. “Hypermasculinity \& Dickwolves: the Contentious Role of Women in the New Gaming Public.” Journal of Broadcasting \& Electronic Media 56, no. 3 (July 2012): 401–16. 
+\fullcite{Salter:2012fa}
 
 
 \section{March 29}
 
+\fullcite{Cohn:1993wq}
 
-Cohn, Carol. “War, Wimps and Women: Talking Gender and Thinking War.” In Gendering War Talk, 227–46, Princeton University Press Princeton, 1993.\\
+\fullcite{Nafus:2012gg}
 
-Nafus, Dawn. “'Patches Don't Have Gender”: What Is Not Open in Open Source Software.” New Media and Society 14, no. 4 (June 1, 2012): 669–83. \\
-
-Reagle, Joseph. ``Free as in Sexist?'' Free Culture and the Gender Gap.” First Monday 18, no. 1 (February 6, 2012).
+\fullcite{Reagle:2012vr}
 
 
 \section{April 5 }
 
-Cassell, Justine, and Henry Jenkins. From Barbie to Mortal Kombat, MIT Press, 2000.
+\fullcite{Cassell:2000vw}
 
 
 \section{April 12}
 
-
-Kafai, Yasmin B. Beyond Barbie and Mortal Kombat, Mit Press, 2008.
+\fullcite{Kafai:2008wl}
 
 
 
 \section{April 19}
 
-Jacob Gaboury, “A Queer History of Computing: Part 1,” Rhizome (2013), http://rhizome.org /editorial/2013/feb/19/queer-computing-1/
+\fullcite{Gaboury:2015uv}
 
-Nooney, “A Pedestal, A Table, A Love Letter: Archaeologies of Gender in Video Game History.” Game Studies. 13(2):
+\fullcite{Nooney:2013vu}
 
-Wihua Wu, Steve Fore, Xiying Wang and Petula Sik Ying Ho, “Beyond Virtual Carnival and Masquerade: In-Game Marriage on the Chinese Internet,” Games and Culture 2 (2007): 59-89.
-
+\fullcite{Wu:2007gs}
 
 
 
