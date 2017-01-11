@@ -11,11 +11,12 @@
 \setmonofont[Mapping=tex-text]{Menlo}
 
 % \usepackage[strict,backend=biber]{biblatex-chicago}
-% \renewcommand{\fullcite}{\fullcite}
+% \renewcommand{\cite}{\fullcite}
 
-\usepackage[citestyle=verbose-ibid, natbib, backend=biber]{biblatex} 
-\renewcommand{\cite}{\autocite}
-\renewcommand\citep\autocite
+% \usepackage[citestyle=authortitle, natbib, backend=biber]{biblatex} 
+% \renewcommand{\cite}{\autocite}
+% \renewcommand\citep\autocite
+\usepackage[notes,short]{biblatex-chicago}
 
 \bibliography{tech-gender}
 
@@ -52,7 +53,7 @@
  
 \vspace{0.2in}
 
-In this seminar we will explore the lfullciterature on the history of gender and technology, with a particular focus on information technology.  From the ``computer girls'' of the early 20th century to the hyper-masculine culture of contemporary computing, ideas about gender have reflected and transformed our understanding of sexuality and gender.  Our goal in this seminar is to survey the best of the emerging literature on gender and computing, with an eye towards the practical application of gender theory into your future research projects.
+In this seminar we will explore the lciterature on the history of gender and technology, with a particular focus on information technology.  From the ``computer girls'' of the early 20th century to the hyper-masculine culture of contemporary computing, ideas about gender have reflected and transformed our understanding of sexuality and gender.  Our goal in this seminar is to survey the best of the emerging literature on gender and computing, with an eye towards the practical application of gender theory into your future research projects.
 
 
 \vspace{0.1in}
@@ -92,89 +93,64 @@ Introduction and in-class primary source exercise.
 
 \section{January 18}
 
-\fullcite{Scott:1986ik}
+\cite{Scott:1986ik}; \cite{Cowan:1976wda}; 
+\cite{Oldenziel:1997to}
 
-\fullcite{Cowan:1976wda}
-
-\fullcite{Oldenziel:1997to}
 
 \section{January 25}
 
-\fullcite{Bray:2007cb}
-
-\fullcite{Kleif:2003wg}
-
-\fullcite{Fischer:1988wl}
+\cite{Bray:2007cb}; \cite{Kleif:2003wg}; \cite{Fischer:1988wl}
 
 \section{February 1}
 
-\fullcite{Oldenziel:1999vk}
+\cite{Oldenziel:1999vk}
 
 \section{February 8}
 
-\fullcite{Strom:1992wx}
+\cite{Strom:1992wx}
 
 \section{February 15}
 
-\fullcite{Hicks:2016uj}
+\cite{Hicks:2016uj}
 
 \section{February 22}
 
-\fullcite{Nakamura:2014gp}
-
-\fullcite{Ensmenger:2010tc}
-
-\fullcite{Haraway:1991uz}
+\cite{Nakamura:2014gp}; \cite{Ensmenger:2010tc}; \cite{Haraway:1991uz}
 
 
 \section{March 1}
 
-\fullcite{Levy:1984ut}
-
-\fullcite{Eglash:2002wk}
-
-\fullcite{Lagesen:2008vy}
+\cite{Levy:1984ut}; \cite{Eglash:2002wk}; \cite{Lagesen:2008vy}
 
 
 \section{March 8}
 
-\fullcite{Hayles:2008wq}
+\cite{Hayles:2008wq}
 
 
 \section{March 22}
 
-\fullcite{Pascoe:2011cj}
-
-\fullcite{Salter:2012fa}
-
+\cite{Pascoe:2011cj}
 
 \section{March 29}
 
-\fullcite{Cohn:1993wq}
-
-\fullcite{Nafus:2012gg}
-
-\fullcite{Reagle:2012vr}
+\cite{Cohn:1993wq}; \cite{Nafus:2012gg}; \cite{Reagle:2012vr}
 
 
 \section{April 5 }
 
-\fullcite{Cassell:2000vw}
+\cite{Cassell:2000vw}
 
 
 \section{April 12}
 
-\fullcite{Kafai:2008wl}
+\cite{Kafai:2008wl}
 
 
 
 \section{April 19}
 
-\fullcite{Gaboury:2015uv}
-
-\fullcite{Nooney:2013vu}
-
-\fullcite{Wu:2007gs}
+\cite{Gaboury:2015uv}; \cite{Nooney:2013vu}; \cite{Wu:2007gs}
 
 
 
@@ -182,9 +158,9 @@ Introduction and in-class primary source exercise.
 
 TBD.
 
-
-
-
-
+\newpage
+\section{Additional Resources}
+\nocite{*} 
+\printbibliography
 
 \end{document}
