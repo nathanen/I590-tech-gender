@@ -50,8 +50,6 @@ most cases you can find better bargains elsewhere.
 
 * January 11
 
-Introduction and in-class primary source exercise.
-
 fullcite:Turkle:1984hack
 
 * January 18
@@ -71,9 +69,8 @@ the Oldenziel article above first appeared.
 fullcite:Bray:2007cb; fullcite:Kleif:2003wg; fullcite:Fischer:1988wl
 
 ** Supplemental Readings
-   
-cite:Wajcman:2000vq; cite:Bray:1997wl;  cite:Edwards:1990ua; cite:Pirsig:1974vs; cite:Ullman:1997vv; cite:Florman:1996um
 
+cite:Wajcman:2000vq provides a complementary overview of the historiography on technology and gender.  cite:Bray:1997wl is Francesca Bray’s history of women and work in late Imperial China.   cite:Florman:1996um explores male pleasure in engineering, and cite:Pirsig:1974vs is a literary/philosophical take on the same subject that has become something of a hacker bible.   cite:Ullman:1997vv shows that taking pleasure in technology is not an exclusively male domain. 
 
 * February 1
 
@@ -81,8 +78,7 @@ fullcite:Oldenziel:1999vk
 
 ** Supplemental Readings
    
-cite:Maines:1999uw; cite:Rossiter:1982vn, cite:Tichi:1987wb;
-cite:Hacker:1989tm
+cite:Rossiter:1982vn explores the history of women in science, with a particular emphasis on the relationship between professionalization and masculinization.   cite:Tichi:1987wb provides a cultural and literary history of the engineer as a male hero. cite:Hacker:1989tm explores the links between feminism, co-operatism and technology.  cite:Maines:1999uw is a classic history of the vibrator.
 
 * February 8
 
@@ -107,7 +103,8 @@ Both cite:Ensmenger:2010te and cite:Abbate:2012wq cover the
 analogous story of the development of computer programming in the United
 States during this period. cite:Agar:2003wf, while not explicitly
 about gender, provides the context for the turn towards "machinic"
-thinking in the British Civil Service.
+thinking in the British Civil Service. cite:Edwards:1990ua is a pioneering work on the gendering of computer programming, and cite:Light:1999wg traces the erasure of the ENIAC women from the history of computing.
+
 
 * February 22
 
@@ -148,6 +145,10 @@ For more on the relationship between embodiment and virtuality, see cite:Stone:1
 
 fullcite:Pascoe:2011cj
 
+** Supplemental Readings
+
+For a more general history of American masculinity, see cite:Rotundo:1994ts. cite:Mellstrom:2004ur focuses more specifically on the role of technology in shaping masculine norms, and cite:Burrill2008 even more specifically on the performance of masculinity in video game culture.
+
 * March 29
 
 fullcite:Cohn:1993wq; fullcite:Nafus:2012gg; fullcite:Reagle:2012vr
@@ -180,9 +181,8 @@ fullcite:Gaboury:2015uv; fullcite:Nooney:2013vu; fullcite:Wu:2007gs
 
 TBD.
 
-* Additional Resources
-
-
+\newpage
+# *Additional Resources* \\
 \nocite{*} 
 \printbibliography
 
