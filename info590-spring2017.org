@@ -1,0 +1,188 @@
+#+TITLE: Technology & Gender
+#+Author: Nathan Ensmenger
+#+LATEX_HEADER: \include{syllabus-template}
+#+LATEX_CLASS_OPTIONS: [11pt]
+#+bibliography: tech-gender.bib
+
+
+In this seminar we will explore the literature on the history of gender
+and technology, with a particular focus on information technology. From
+the "computer girls" of the early 20th century to the hyper-masculine
+culture of contemporary computing, ideas about gender have reflected and
+transformed our understanding of sexuality and gender. Our goal in this
+seminar is to survey the best of the emerging literature on gender and
+computing, with an eye towards the practical application of gender
+theory into your future research projects.
+
+\vspace{0.1in}
+
+\begin{center} 
+ Professor Nathan Ensmenger\\ \texttt{nensmeng@indiana.edu}\\
+\vspace{0.1in}
+Revision Date: \today
+\end{center}
+
+\newpage
+*Course Schedule*\\
+
+In addition to doing the required readings and preparing for
+discussions, you will be responsible for writing a short (1-2 pg)
+reading response paper each week.\\
+
+The supplementary readings and extended bibliography are meant to make
+you aware of the larger literature, and to provide a guide for those of
+you who need further preparation for your qualifying exams or
+dissertation research.\\
+
+A note on books: all of the articles listed below will be made available
+electronically. The books you are responsible for borrowing, purchasing,
+or otherwise acquiring. I did not order them via the bookstore, as in
+most cases you can find better bargains elsewhere.
+
+\small
+\let\realeverypar\everypar
+\realeverypar{\the\myeverypar\the\everypar}
+\newtoks\everypar
+\everypar{}
+\newtoks\myeverypar \myeverypar{}
+
+\myeverypar{\hangindent=1cm \small}
+
+* January 11
+
+Introduction and in-class primary source exercise.
+
+fullcite:Turkle:1984hack
+
+* January 18
+
+fullcite:Scott:1986ik; fullcite:Cowan:1976wda; fullcite:Oldenziel:1997to
+
+** Supplemental Readings
+   
+For further development of her argument on the (lack of)
+industrialization in female domestic work, see cite:Cowan:1983vm.
+cite:Lerman:1997ui provides an introduction to their influential
+special issue of /Technology & Culture/ on women and technology in which
+the Oldenziel article above first appeared.
+
+* January 25
+
+fullcite:Bray:2007cb; fullcite:Kleif:2003wg; fullcite:Fischer:1988wl
+
+** Supplemental Readings
+   
+cite:Wajcman:2000vq; cite:Bray:1997wl;  cite:Edwards:1990ua; cite:Pirsig:1974vs; cite:Ullman:1997vv; cite:Florman:1996um
+
+
+* February 1
+
+fullcite:Oldenziel:1999vk
+
+** Supplemental Readings
+   
+cite:Maines:1999uw; cite:Rossiter:1982vn, cite:Tichi:1987wb;
+cite:Hacker:1989tm
+
+* February 8
+
+fullcite:Strom:1992wx
+
+** Supplemental Readings
+   
+cite:Davies:1982vb focuses on the typewriter as a gendered technology.
+cite:Milkman:1987tl argues that women do not replace men during war;
+new and gendered positions are created for them. cite:Benson:1987wl
+describes women's work in retail. cite:Tone:2001to is a history of
+birth control, and includes a section on female entrepreneurs in this
+technology.
+
+* February 15
+
+fullcite:Hicks:2016uj
+
+** Supplemental Readings
+   
+Both cite:Ensmenger:2010te and cite:Abbate:2012wq cover the
+analogous story of the development of computer programming in the United
+States during this period. cite:Agar:2003wf, while not explicitly
+about gender, provides the context for the turn towards "machinic"
+thinking in the British Civil Service.
+
+* February 22
+
+fullcite:Nakamura:2014gp; fullcite:Ensmenger:2010tc; fullcite:Haraway:1991uz;
+fullcite:Bernstein:1980wf
+
+** Supplemental Readings
+   
+For other accounts of the roles that women played in the early computer
+industry, see cite:Shetterly:2016vl, cite:Grier:2005tq, and
+cite:Gurer:1996it.
+
+* March 1
+
+fullcite:Levy:1984ut (selected excerpts); fullcite:Eglash:2002wk
+fullcite:Lagesen:2008vy; fullcite:Ensmenger:2015wx
+
+** Supplemental Readings
+   
+cite:Kidder:1981tj was awarded the Pulitzer Prize for its gripping
+tale of computer engineers as Wild West heroes. cite:Kocurek:2015cg
+provides the larger context for understanding masculinity and video
+games. cite:Losse:2012um updates these narratives for the Facebook
+era. If you have trouble understanding Haraway, read
+cite:Gibson:1995un, which covers some of the same territory in the
+form cyberpunk science fiction. In fact, read the Gibson anyway. It is
+beautiful, insightful, and powerfully influential in its own right.
+
+* March 8
+
+fullcite:Hayles:2008wq
+
+** Supplemental Readings
+
+For more on the relationship between embodiment and virtuality, see cite:Stone:1996wp and cite:Balsamo:1996uc.  For an overview of the history of cybernetics and its relationship to contemporary information technology, see cite:Kline:2015ti.  For an interesting foreshadowing of our section on queer computing, cite:Wilson:2009wm explores the ``confluence of sexual and intellectual matters'' that swirled around the tragic genius Walter Pitts, one of the key members of the early Cybernetics group. And in case you were not intrigued enough by last weeks's discussion to read Gibson's /Neuromancer/, read it now.
+
+* March 22
+
+fullcite:Pascoe:2011cj
+
+* March 29
+
+fullcite:Cohn:1993wq; fullcite:Nafus:2012gg; fullcite:Reagle:2012vr
+
+* April 5
+
+fullcite:Cassell:2000vw
+
+** Supplemental Readings
+   
+cite:Burrill2008
+
+* April 12
+
+fullcite:Kafai:2008wl
+
+** Supplemental Readings
+   
+cite:Shaw:2015dr
+
+* April 19
+
+fullcite:Gaboury:2015uv; fullcite:Nooney:2013vu; fullcite:Wu:2007gs
+
+** Supplemental Readings
+   
+   cite:Ruberg:2017ww
+
+* April 26
+
+TBD.
+
+* Additional Resources
+
+
+\nocite{*} 
+\printbibliography
+
