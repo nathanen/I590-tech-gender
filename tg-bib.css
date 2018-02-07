@@ -1,0 +1,50 @@
+         * {
+             font-family: "Georgia";
+         }
+
+         h1, h2, h3, h4, h5, h6,
+         h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+         h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+             font-family: "Arial";
+         }
+
+         pre {
+             font-family: Monaco, "Courier New", Courier;
+         }
+
+         body {
+	           font-size: 14px;
+	           line-height: 1.5em;
+	           /* padding: 0; */
+	           /* margin: 0; */
+         }
+         h1 {
+	           /* margin: 0; */
+	           font-size: 1.6666666666666667em;
+	           line-height: 0.9em;
+	           margin-bottom: 0.9em;
+         }
+         h2 {
+	           /* margin: 0; */
+	           font-size: 1.5em;
+	           line-height: 1em;
+	           margin-bottom: 1em;
+         }
+         h3 {
+	           /* margin: 0; */
+	           font-size: 1.3333333333333333em;
+	           line-height: 1.125em;
+	           margin-bottom: 1.125em;
+         }
+         h4 {
+	           margin: 0;
+	           font-size: 1.1666666666666667em;
+	           line-height: 1.2857142857142858em;
+	           margin-bottom: 1.2857142857142858em;
+         }
+         p, ul, blockquote, pre, td, th, label {
+	           /* margin: 0; */
+	           font-size: 1em;
+	           line-height: 1.5em;
+	           margin-bottom: 1.5em;
+         }
