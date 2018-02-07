@@ -1,0 +1,56 @@
+\usepackage{graphicx}
+\usepackage[compact]{titlesec}
+
+\usepackage{microtype}
+\usepackage[text={5.5in,9.5in},centering]{geometry}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Scale=MatchLowercase} 
+\setmainfont[Mapping=tex-text]{Myriad Pro} 
+\setmonofont[Mapping=tex-text]{Menlo}
+% \usepackage[english]{babel}
+% \usepackage[notes,short]{biblatex-chicago}
+% \usepackage[style=apa, backend=biber]{biblatex} 
+
+\usepackage[authordate, backend=biber]{biblatex-chicago}
+\renewcommand{\cite}{\textcite}
+
+\bibliography{tech-gender}
+\DeclareBibliographyAlias{webpage}{online}  
+
+
+\renewcommand \thesection{\Roman{section}}
+\renewcommand \thesubsection{}
+\renewcommand \thesubsubsection{}
+
+\titleformat{\section}{\large \bf}{\thesection}{8pt}{}
+\titleformat{\subsection}{\small \bf \it}{\thesubsection}{8pt}{}
+\titleformat{\subsubsection}{\normalsize
+  \bf}{\thesubsubsection}{8pt}{}
+
+\titlespacing{\section}{0pt}{12pt}{2pt}
+\titlespacing{\subsection}{0pt}{6pt}{2pt}
+\titlespacing{\subsubsection}{-8pt}{*1}{8pt}
+
+\setlength{\parindent}{0in}
+
+%  BEGIN: customize maketitle
+
+\renewcommand{\maketitle}
+{
+\thispagestyle{empty}
+	
+\begin{center}	
+	
+  \fontsize{28pt}{32pt} \selectfont {Technology \& Gender} \\
+  \Large{INFO I-590 \textbullet \ \ Spring 2017}\\
+
+\vspace{0.2in}
+
+\setlength{\fboxsep}{0mm} %No padding in box
+\setlength{\fboxrule}{2pt}
+
+\end{center}
+
+}
+%  END: customize maketitle
